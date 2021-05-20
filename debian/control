@@ -1,0 +1,12 @@
+Source: ros-rolling-fcl
+Section: misc
+Priority: optional
+Maintainer: TRI Geometry Team <fcl@tri.global>
+Build-Depends: debhelper (>= 9.0.0), cmake, libccd-dev, libeigen3-dev, ros-rolling-octomap, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-fcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libccd-dev, libeigen3-dev, ros-rolling-octomap, ros-rolling-ros-workspace
+Description: FCL: the Flexible Collision Library
